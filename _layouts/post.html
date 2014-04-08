@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<main class="content" role="main">
+    <div class="container">
+        <article>
+            <header class="post-header">
+                <h3 class="p-post-title">{{ title }}</h3>
+                <p class="post-time">{{ description }}</p>
+            </header>
+
+            <section class="post-content">
+                {{content}}
+            </section>
+
+            <footer class="post-footer">
+                <span>
+                    {% if page.categories %}<i class="fa fa-bars"></i> {{ page.categories | array_to_sentence_string }} {% if page.author %}&nbsp;&nbsp;{% endif %}{% endif %}
+                    {% if page.author %}<i class="fa fa-user"></i> {{ page.author }}{% endif %}
+                </span>
+            </footer>
+            <hr>
+        </article>
+    </div>
+</main>

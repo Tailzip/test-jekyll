@@ -1,0 +1,35 @@
+---
+layout: default
+title: Homepage
+---
+
+<ul class="posts">
+  <li class="list-title">Sticky</li>
+    {% for post in site.posts %}
+      {% if post.sticky %}
+        <li class="{{ post.categories }}">
+          <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">
+            <div class="p-wrap">
+              <span class="date">{{ post.categories }}</span>
+              <p>{{ post.title }}</p>
+            </div>
+          </a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+<ul class="posts">
+  <li class="list-title">All posts</li>
+  {% for post in site.posts order:date %}
+    {% if post.sticky != true %}
+    <li class="{{ post.categories }}">
+      <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">
+        <div class="p-wrap">
+          <span class="date">{{ post.categories }}</span>
+          <p>{{ post.title }}</p>
+        </div>
+      </a>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>

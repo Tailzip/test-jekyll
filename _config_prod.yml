@@ -1,0 +1,11 @@
+name: "Wonderdevs"
+description: "We are amazing!"
+
+author: "Wonderdevs"
+
+url: "http://tailzip.github.io/test-jekyll"
+baseurl: "/test-jekyll"
+
+markdown: rdiscount
+permalink: :categories/:title.html
+pygments: false
