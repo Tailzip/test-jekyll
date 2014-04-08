@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Wonderdevs</title>
+  <id>http://tailzip.github.io/test-jekyll</id>
+  <link href="http://tailzip.github.io/test-jekyll" />
+  <link href="http://tailzip.github.io/test-jekyll/atom.xml" rel="self" />
+  <updated>2014-04-08T17:40:55-04:00</updated>
+  <rights>Copyright 2014, Wonderdevs</rights>
+  <author>
+    <name>Wonderdevs</name>
+  </author>
+  
+    <entry>
+      <title>Other Stuff</title>
+      <link href="http://tailzip.github.io/test-jekyll/other/other-stuff.html" />
+      <summary type="html">&lt;h1&gt;Other Stuff&lt;/h1&gt;
+
+
+
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ipsum eos aliquam rem quae. Corporis, eos, quia, quos, assumenda aut ad libero ea eum quaerat voluptas dolore voluptates maxime consequuntur?&lt;/p&gt;
+
+</summary>
+      <id>http://tailzip.github.io/test-jekyll/other/other-stuff.html</id>
+      <updated>2014-04-08T12:57:51-04:00</updated>
+      <author>
+        <name>Wonderdevs</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>JS Stuff</title>
+      <link href="http://tailzip.github.io/test-jekyll/js/js-stuff.html" />
+      <summary type="html">&lt;h1&gt;JS Stuff&lt;/h1&gt;
+
+
+
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ipsum eos aliquam rem quae. Corporis, eos, quia, quos, assumenda aut ad libero ea eum quaerat voluptas dolore voluptates maxime consequuntur?&lt;/p&gt;
+
+</summary>
+      <id>http://tailzip.github.io/test-jekyll/js/js-stuff.html</id>
+      <updated>2014-04-07T12:57:51-04:00</updated>
+      <author>
+        <name>Wonderdevs</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Other 2 Stuff</title>
+      <link href="http://tailzip.github.io/test-jekyll/other2/other-2-stuff.html" />
+      <summary type="html">&lt;h1&gt;Other 2 stuff&lt;/h1&gt;
+
+</summary>
+      <id>http://tailzip.github.io/test-jekyll/other2/other-2-stuff.html</id>
+      <updated>2014-04-05T12:57:51-04:00</updated>
+      <author>
+        <name>Wonderdevs</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>CSS Stuff</title>
+      <link href="http://tailzip.github.io/test-jekyll/css/css-stuff.html" />
+      <summary type="html">&lt;h1&gt;CSS Stuff&lt;/h1&gt;
+
+</summary>
+      <id>http://tailzip.github.io/test-jekyll/css/css-stuff.html</id>
+      <updated>2014-04-04T12:57:51-04:00</updated>
+      <author>
+        <name>Wonderdevs</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Workflow Stuff</title>
+      <link href="http://tailzip.github.io/test-jekyll/workflow/workflow-stuff.html" />
+      <summary type="html">&lt;h1&gt;Workflow Stuff&lt;/h1&gt;
+
+
+
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ipsum eos aliquam rem quae. Corporis, eos, quia, quos, assumenda aut ad libero ea eum quaerat voluptas dolore voluptates maxime consequuntur?&lt;/p&gt;
+
+</summary>
+      <id>http://tailzip.github.io/test-jekyll/workflow/workflow-stuff.html</id>
+      <updated>2014-04-01T12:57:51-04:00</updated>
+      <author>
+        <name>Wonderdevs</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Susy</title>
+      <link href="http://tailzip.github.io/test-jekyll/css/susy.html" />
+      <summary type="html">&lt;div class=&quot;container&quot;&gt;
+	&lt;article&gt;
+		&lt;header class=&quot;post-header&quot;&gt;
+			&lt;h3 class=&quot;post-title&quot;&gt;Susy&lt;/h3&gt;
+			&lt;p class=&quot;post-time&quot;&gt;Getting Started&lt;/p&gt;
+		&lt;/header&gt;
+
+		&lt;section class=&quot;post-content&quot;&gt;
+&lt;pre class=&#39;language-bash&#39;&gt;&lt;code&gt;# Susy only needs SASS, but was built with Compass so install it!
+gem install compass
+
+# You might need the alpha version of Compass, if you get errors when using susy run :
+gem install compass --pre
+
+# Install susy
+gem install susy
+
+# If you want to use the mixin susy-breakpoint(), you also need to install Breakpoint
+gem install breakpoint&lt;/code&gt;&lt;/pre&gt;
+
+			&lt;hr&gt;
+
+&lt;pre class=&#39;language-ruby&#39;&gt;&lt;code&gt;# Update config.rb
+require &#39;susy&#39;
+
+# Require breakpoint if needed
+require &#39;breakpoint&#39;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre class=&#39;language-javascript&#39;&gt;&lt;code&gt;// Or update your gulpfile.js
+.pipe(compass({
+require : [&#39;susy&#39;, &#39;breakpoint&#39;]
+}));&lt;/code&gt;&lt;/pre&gt;
+
+			&lt;hr&gt;
+
+&lt;pre class=&#39;language-scss&#39;&gt;&lt;code&gt;// Import breakpoint (if you need it)
+@import &#39;breakpoint&#39;;
+
+// Import susy
+@import &#39;susy&#39;;&lt;/code&gt;&lt;/pre&gt;
+		&lt;/section&gt;
+	&lt;/article&gt;
+
+	&lt;article&gt;
+		&lt;header class=&quot;post-header&quot;&gt;
+			&lt;h3 class=&quot;post-title&quot;&gt;Settings&lt;/h3&gt;
+			&lt;p class=&quot;post-time&quot;&gt;Default settings&lt;/p&gt;
+		&lt;/header&gt;
+
+		&lt;section class=&quot;post-content&quot;&gt;
+&lt;pre class=&#39;language-scss&#39;&gt;&lt;code&gt;// Global variable
+$susy: (
+	flow: ltr | rtl,
+	math: fluid | static,
+	output: float | isolate,
+	gutter-position: before | after | split | inside | inside-static | no-gutters,
+	container: *length* | auto,
+	container-position: left | center | right | *length*,
+	columns: *number* | *list*,
+	gutters: *ratio*,
+	column-width: *length* | false/null,
+	global-box-sizing: border-box | content-box,
+	last-flow: from | to,
+	debug: (
+		image: show | hide | show-columns | show-baseline,
+		color: rgba(#66f, .25),
+		output: background | overlay,
+		toggle: right | left &amp;amp; top | bottom,
+	),
+	use-custom: (
+		background-image: #true | false,
+		background-options: true | #false,
+		box-sizing: #true | false,
+		clearfix: true | #false,
+		rem: #true | false,
+	)
+);&lt;/code&gt;&lt;/pre&gt;
+		&lt;/section&gt;
+	&lt;/article&gt;
+
+	&lt;article&gt;
+		&lt;header class=&quot;post-header&quot;&gt;
+			&lt;p class=&quot;post-time&quot;&gt;Map or Shorthand&lt;/p&gt;
+		&lt;/header&gt;
+
+		&lt;section class=&quot;post-content&quot;&gt;
+&lt;pre class=&#39;language-scss&#39;&gt;&lt;code&gt;$susy: (
+	columns: 12,
+	gutters: 1,
+	gutter-position: split,
+	global-box-sizing: border-box
+);
+
+#susy-container { @include container(); }
+
+// OR
+
+#susy-container { @include container(12 1 split border-box); }&lt;/code&gt;&lt;/pre&gt;
+		&lt;/section&gt;
+	&lt;/article&gt;
+
+	&lt;article&gt;
+		&lt;header class=&quot;post-header&quot;&gt;
+			&lt;h3 class=&quot;post-title&quot;&gt;Span Mixin/Function&lt;/h3&gt;
+			&lt;p class=&quot;post-time&quot;&gt;Context&lt;/p&gt;
+		&lt;/header&gt;
+
+		&lt;section class=&quot;post-content&quot;&gt;
+&lt;pre class=&#39;language-scss&#39;&gt;&lt;code&gt;#susy-container {
+	@include container(12);
+
+	header { @include span(2 of 12); }
+	nav { @include span(3 of 12); }
+	article { @include span(4 of 12); }
+	footer { @include span(20% of 12); }
+}
+// OR
+
+#susy-container {
+	@include container(12);
+
+	@include nested(12) { // context of 12
+		header { @include span(2); }
+		nav { @include span(3); }
+		article { @include span(4); }
+		footer { @include span(20%); }
+	}
+}&lt;/code&gt;&lt;/pre&gt;
+		&lt;/section&gt;
+	&lt;/article&gt;
+&lt;/div&gt;
+
+&lt;article&gt;
+	&lt;div id=&quot;susy-container-2&quot;&gt;
+	&lt;header&gt;HEADER&lt;/header&gt;
+	&lt;nav&gt;NAV&lt;/nav&gt;
+	&lt;article&gt;ARTICLE&lt;/article&gt;
+	&lt;footer&gt;FOOTER&lt;/footer&gt;
+&lt;/article&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+	&lt;article&gt;
+
+		&lt;section class=&quot;post-content&quot;&gt;
+&lt;pre class=&#39;language-scss&#39;&gt;&lt;code&gt;nav {
+	@include span(4 of 12) {
+		ul {
+			li { @include span(2); } // 2 in a context of 4
+		}
+	}
+}&lt;/code&gt;&lt;/pre&gt;
+		&lt;/section&gt;
+	&lt;/article&gt;
+&lt;/div&gt;
+
+&lt;article&gt;
+	&lt;div id=&quot;susy-container-3&quot;&gt;
+		&lt;header&gt;HEADER&lt;/header&gt;
+		&lt;nav&gt;
+		NAV
+			&lt;ul&gt;
+				&lt;li&gt;Link 1&lt;/li&gt;
+				&lt;li&gt;Link 2&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/nav&gt;
+		&lt;article&gt;ARTICLE&lt;/article&gt;
+		&lt;footer&gt;FOOTER&lt;/footer&gt;
+	&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+	&lt;article&gt;
+		&lt;header class=&quot;post-header&quot;&gt;
+			&lt;p class=&quot;post-time&quot;&gt;Nesting&lt;/p&gt;
+		&lt;/header&gt;
+		&lt;section class=&quot;post-content&quot;&gt;
+&lt;pre class=&#39;language-scss&#39;&gt;&lt;code&gt;nav {
+	@include span(4 of 12 nest) {
+		ul {
+			li { @include span(2); } // 2 in a context of 4
+		}
+	}
+}&lt;/code&gt;&lt;/pre&gt;
+		&lt;/section&gt;
+	&lt;/article&gt;
+&lt;/div&gt;
+
+&lt;article&gt;
+	&lt;div id=&quot;susy-container-4&quot;&gt;
+		&lt;header&gt;HEADER&lt;/header&gt;
+		&lt;nav&gt;
+		NAV
+			&lt;ul&gt;
+				&lt;li&gt;Link 1&lt;/li&gt;
+				&lt;li&gt;Link 2&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/nav&gt;
+		&lt;article&gt;ARTICLE&lt;/article&gt;
+		&lt;footer&gt;FOOTER&lt;/footer&gt;
+	&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+	&lt;article&gt;
+		&lt;header class=&quot;post-header&quot;&gt;
+		&lt;p class=&quot;post-time&quot;&gt;Location&lt;/p&gt;
+		&lt;/header&gt;
+		&lt;section class=&quot;post-content&quot;&gt;
+&lt;pre class=&#39;language-scss&#39;&gt;&lt;code&gt;#susy-container {
+	@include nested(12) {
+		header { @include span(isolate 500px at 25%); }
+		nav { @include span(isolate 3 at 10); }
+	}
+}&lt;/code&gt;&lt;/pre&gt;
+		&lt;/section&gt;
+	&lt;/article&gt;
+&lt;/div&gt;
+
+&lt;article&gt;
+&lt;div id=&quot;susy-container-5&quot;&gt;
+&lt;header&gt;HEADER&lt;/header&gt;
+&lt;nav&gt;NAV&lt;/nav&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+	&lt;article&gt;
+		&lt;header class=&quot;post-header&quot;&gt;
+			&lt;p class=&quot;post-time&quot;&gt;Narrow, Wide &amp;amp; Wider + Break&lt;/p&gt;
+		&lt;/header&gt;
+		&lt;section class=&quot;post-content&quot;&gt;
+&lt;pre class=&#39;language-scss&#39;&gt;&lt;code&gt;#susy-container {
+	@include nested(12) {
+		header { @include span(3); }
+		nav { @include span(3 wide break); }
+		article { @include span(3 wider break); }
+	}
+}&lt;/code&gt;&lt;/pre&gt;
+		&lt;/section&gt;
+	&lt;/article&gt;
+&lt;/div&gt;
+
+&lt;article&gt;
+	&lt;div id=&quot;susy-container-6&quot;&gt;
+		&lt;header&gt;NARROW (Default)&lt;/header&gt;
+		&lt;nav&gt;WIDE&lt;/nav&gt;
+		&lt;article&gt;WIDER&lt;/article&gt;
+	&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+	&lt;article&gt;
+		&lt;header class=&quot;post-header&quot;&gt;
+			&lt;p class=&quot;post-time&quot;&gt;Span() + Gutter Mixin/Function&lt;/p&gt;
+		&lt;/header&gt;
+		&lt;section class=&quot;post-content&quot;&gt;
+&lt;pre class=&#39;language-scss&#39;&gt;&lt;code&gt;#susy-container {
+	@include nested(12) {
+		header { @include span(3); }
+		nav {
+			float:left;
+			width: span(3);
+			//margin: 0 gutter(grid context/px/em/%);
+			margin: 0 gutter();
+		}
+		article { @include span(3); }
+		footer {
+			float:left;
+			width: span(3);
+			@include gutters();
+			//@include gutters(12 1/3 after);
+		}
+	}
+}&lt;/code&gt;&lt;/pre&gt;
+		&lt;/section&gt;
+	&lt;/article&gt;
+&lt;/div&gt;
+
+&lt;article&gt;
+	&lt;div id=&quot;susy-container-7&quot;&gt;
+		&lt;header&gt;HEADER&lt;/header&gt;
+		&lt;nav&gt;NAV&lt;/nav&gt;
+		&lt;article&gt;ARTICLE&lt;/article&gt;
+		&lt;footer&gt;FOOTER&lt;/footer&gt;
+	&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+	&lt;article&gt;
+		&lt;header class=&quot;post-header&quot;&gt;
+			&lt;p class=&quot;post-time&quot;&gt;First, Last &amp;amp; Full&lt;/p&gt;
+		&lt;/header&gt;
+		&lt;section class=&quot;post-content&quot;&gt;
+&lt;pre class=&#39;language-scss&#39;&gt;&lt;code&gt;// FIRST
+#susy-container {
+
+	/*
+	* /!\ Override default settings in the entire .scss file
+	*/
+	@include layout(before); //change gutter position to before
+
+	@include nested(12) {
+		header { @include span(first 3); }
+		nav { @include span(9); }
+		article { @include span(3 break); }
+		footer { @include span(9); }
+	}
+}
+
+// LAST
+#susy-container {
+
+	/*
+	* /!\ Override default settings in the entire .scss file
+	*/
+	@include layout(after); //change gutter position to after
+
+	@include nested(12) {
+		header { @include span(9); }
+		nav { @include span(last 3); }
+		article { @include span(9 break); }
+		footer { @include span(3); }
+	}
+}
+
+// FULL
+#susy-container {
+	@include nested(12) {
+		header { @include span(full); }
+	}
+}
+
+// COOL CLASSES
+.first { @include first; }
+.last { @include last; }
+.full { @include full; }&lt;/code&gt;&lt;/pre&gt;
+		&lt;/section&gt;
+	&lt;/article&gt;
+&lt;/div&gt;
+
+&lt;article&gt;
+	&lt;div id=&quot;susy-container-8&quot;&gt;
+		&lt;header&gt;3 FIRST (no right margin)&lt;/header&gt;
+		&lt;nav&gt;9&lt;/nav&gt;
+		&lt;article&gt;3 NOT FIRST (right margin)&lt;/article&gt;
+		&lt;footer&gt;9&lt;/footer&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;susy-container-9&quot;&gt;
+		&lt;header&gt;9&lt;/header&gt;
+		&lt;nav&gt;3 LAST (no left margin)&lt;/nav&gt;
+		&lt;article&gt;9&lt;/article&gt;
+		&lt;footer&gt;3 NOT LAST (left margin)&lt;/footer&gt;
+	&lt;/div&gt;
+	&lt;div id=&quot;susy-container-10&quot;&gt;
+		&lt;header&gt;FULL&lt;/header&gt;
+	&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+	&lt;article&gt;
+		&lt;header class=&quot;post-header&quot;&gt;
+			&lt;h3 class=&quot;post-title&quot;&gt;Margins &amp;amp; Paddings&lt;/h3&gt;
+			&lt;p class=&quot;post-time&quot;&gt;Pre, Post, Pull, Squish, Prefix, Suffix, Pad &amp;amp; Bleed&lt;/p&gt;
+		&lt;/header&gt;
+		&lt;section class=&quot;post-content&quot;&gt;
+&lt;pre class=&#39;language-scss&#39;&gt;&lt;code&gt;// Margins
+.pre { @include pre(25%); }
+.pre { @include pre(2 of 7); }
+
+.post { @include post(25%); }
+.post { @include post(2 of 7); }
+
+.pull { @include pull(25%); }
+.pull { @include pull(2 of 7); }
+
+.squish { @include squish(1, 3); }
+.squish { @include squish(1 at 2, 3 at 6); }
+
+// Paddings
+.prefix { @include prefix(25%); }
+.prefix { @include prefix(2 of 7); }
+
+.suffix { @include suffix(25%); }
+.suffix { @include suffix(2 of 7); }
+
+.pad { @include pad(1, 3); }
+.pad { @include pad(1 at 2, 3 at 6); }
+
+.bleed { @include bleed(1em); }
+.bleed { @include bleed(1em 2 20px 5% of 8 ); }
+
+.bleed-x { @include bleed-x(1em 2em); }
+
+.bleed-y { @include bleed-y(1em 2em); }
+
+#susy-container {
+	@include nested(12) {
+		nav {
+			@include span(3);
+			@include bleed-y(1%);
+		}
+		article {
+			@include span(3);
+			@include bleed-x(1em);
+		}
+	}
+}&lt;/code&gt;&lt;/pre&gt;
+		&lt;/section&gt;
+	&lt;/article&gt;
+&lt;/div&gt;
+
+&lt;article&gt;
+	&lt;div id=&quot;susy-container-11&quot;&gt;
+		&lt;header&gt;HEADER&lt;/header&gt;
+		&lt;nav&gt;BLEED-Y&lt;/nav&gt;
+		&lt;article&gt;BLEED-X&lt;/article&gt;
+		&lt;footer&gt;FOOTER&lt;/footer&gt;
+	&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+	&lt;article&gt;
+		&lt;header class=&quot;post-header&quot;&gt;
+			&lt;h3 class=&quot;post-title&quot;&gt;Gallery Grid&lt;/h3&gt;
+			&lt;p class=&quot;post-time&quot;&gt;Let magic do its work&lt;/p&gt;
+		&lt;/header&gt;
+		&lt;section class=&quot;post-content&quot;&gt;
+&lt;pre class=&#39;language-scss&#39;&gt;&lt;code&gt;#susy-gallery {
+	img {
+		@include gallery(4 of 12);
+		margin-bottom: 4%;
+	}
+}&lt;/code&gt;&lt;/pre&gt;
+		&lt;/section&gt;
+	&lt;/article&gt;
+&lt;/div&gt;
+
+&lt;article&gt;
+	&lt;div id=&quot;susy-gallery&quot;&gt;
+		&lt;img src=&quot;http://placehold.it/300x300&quot; alt=&quot;&quot;&gt;
+		&lt;img src=&quot;http://placehold.it/300x300&quot; alt=&quot;&quot;&gt;
+		&lt;img src=&quot;http://placehold.it/300x300&quot; alt=&quot;&quot;&gt;
+		&lt;img src=&quot;http://placehold.it/300x300&quot; alt=&quot;&quot;&gt;
+		&lt;img src=&quot;http://placehold.it/300x300&quot; alt=&quot;&quot;&gt;
+		&lt;img src=&quot;http://placehold.it/300x300&quot; alt=&quot;&quot;&gt;
+		&lt;img src=&quot;http://placehold.it/300x300&quot; alt=&quot;&quot;&gt;
+		&lt;img src=&quot;http://placehold.it/300x300&quot; alt=&quot;&quot;&gt;
+	&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+	&lt;article&gt;
+		&lt;header class=&quot;post-header&quot;&gt;
+			&lt;h3 class=&quot;post-title&quot;&gt;Breakpoint&lt;/h3&gt;
+			&lt;p class=&quot;post-time&quot;&gt;susy-breakpoint() mixin&lt;/p&gt;
+		&lt;/header&gt;
+		&lt;section class=&quot;post-content&quot;&gt;
+&lt;pre class=&#39;language-scss&#39;&gt;&lt;code&gt;// small grid: (columns: 12, gutters: 1em, column-width: 4em);
+$small: layout(12 (4em 1em) show );
+
+// medium grid: (columns: 12, gutters: ratio 1/2, column-width: 4em);
+$medium: layout(12  1/2 show );
+
+// large grid: (columns: 12, gutters: 10px, column-width: 60px);
+$large: layout(12 (60px 50px) show );
+
+// x-large grid: (columns: 12, gutters: .25 ratio);
+$x-large: layout(12 .25 show );
+
+#susy-container {
+	@include susy-breakpoint(40em, $small) {
+		@include container();
+
+		header { @include span(2); }
+		nav { @include span(4); }
+		article { @include span(4); }
+		footer { @include span(2); }
+
+	}
+
+	@include susy-breakpoint(50em, $medium) {
+		@include container();
+
+		header { @include span(1); }
+		nav { @include span(1); }
+		article { @include span(2); }
+		footer { @include span(2 last); }
+
+	}
+
+	@include susy-breakpoint(60em, $large) {
+		@include container();
+
+		header { @include span(5); }
+		nav { @include span(2); }
+		article { @include span(2); }
+		footer { @include span(3); }
+	}
+
+	@include susy-breakpoint(70em, $x-large) {
+		@include container();
+
+		header { @include span(3); }
+		nav { @include span(3); }
+		article { @include span(3); }
+		footer { @include span(3); }
+	}
+}&lt;/code&gt;&lt;/pre&gt;
+		&lt;/section&gt;
+	&lt;/article&gt;
+&lt;/div&gt;
+
+&lt;article&gt;
+	&lt;div id=&quot;susy-container-1&quot;&gt;
+		&lt;header&gt;HEADER&lt;/header&gt;
+		&lt;nav&gt;NAV&lt;/nav&gt;
+		&lt;article&gt;ARTICLE&lt;/article&gt;
+		&lt;footer&gt;FOOTER&lt;/footer&gt;
+	&lt;/div&gt;
+&lt;/article&gt;</summary>
+      <id>http://tailzip.github.io/test-jekyll/css/susy.html</id>
+      <updated>2014-03-29T12:57:51-04:00</updated>
+      <author>
+        <name>Wonderdevs</name>
+      </author>
+    </entry>
+  
+</feed>
